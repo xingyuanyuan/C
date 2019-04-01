@@ -3,20 +3,17 @@
 c=5/9（f-32）
 
 ```
-
 #include<stdio.h>
 
 int main ()
 {
-	float f,c;
-	f=64.0;
-	c=5.0 / 9*(f-32);
-	printf("f=%f\nc=%f\n",f,c);
+    float f,c;
+    f=64.0;
+    c=5.0 / 9*(f-32);
+    printf("f=%f\nc=%f\n",f,c);
     return 0;
     
  }
-
- ```
-
+```
 
 最后呈现出来的效果是这样的![](1.png)
